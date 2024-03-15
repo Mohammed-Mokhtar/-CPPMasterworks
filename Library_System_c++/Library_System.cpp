@@ -6,9 +6,6 @@
 #define ll long long
 #define INF 0x3f3f3f3f
 using namespace std;
-const double MX = 1e5 + 5;
-const double eps = 1e-9;
-const double pi = 3.141592653589793238;
 
 // Function to shift elements of an array to the left
 void shift_left(int arr[], int indexToRemove, int &len)
