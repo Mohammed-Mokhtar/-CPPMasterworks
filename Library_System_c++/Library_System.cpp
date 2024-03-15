@@ -21,7 +21,7 @@ void shift_left(int arr[], int indexToRemove, int &len)
 }
 
 // Function to shift elements of an array of strings to the left
-void shift_left_name(string arr[], int indexToRemove, int &len)
+void shift_left(string arr[], int indexToRemove, int &len)
 {
   for (int i = indexToRemove; i < len; i++)
   {
@@ -119,7 +119,7 @@ struct book
     {
       if (user_borrow[i] == user_name)
       {
-        shift_left_name(user_borrow, i, len_user_borrow);
+        shift_left(user_borrow, i, len_user_borrow);
       }
     }
   }
