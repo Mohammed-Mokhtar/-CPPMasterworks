@@ -19,7 +19,6 @@ void shift_left(int arr[], int indexToRemove, int &len)
   }
   len--;
 }
-
 // Function to shift elements of an array of strings to the left
 void shift_left(string arr[], int indexToRemove, int &len)
 {
